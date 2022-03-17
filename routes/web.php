@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\ModuleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',function(){ return view('admin.pages.dashboard');});
+Route::get('/',function(){ return view('admin.pages.dashboard');})->name('admin.dashboard');
+
+
+Route::get('/modules',[ModuleController::class,'index'])->name('admin.modules');
+Route::post('/modules',[ModuleController::class,'insert'])->name('admin.insert.modules');
