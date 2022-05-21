@@ -7,23 +7,9 @@
           <i class="icon-menu menu-icon"></i>
         </a>
        </li>
-       <li class="nav-item">
-         <form class="search-bar">
-           <input type="text" class="form-control" placeholder="Enter keywords">
-            <a href="javascript:void();"><i class="icon-magnifier"></i></a>
-         </form>
-       </li>
      </ul>
         
      <ul class="navbar-nav align-items-center right-nav-link">
-       <li class="nav-item dropdown-lg">
-         <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();">
-         <i class="fa fa-envelope-open-o"></i></a>
-       </li>
-       <li class="nav-item dropdown-lg">
-         <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();">
-         <i class="fa fa-bell-o"></i></a>
-       </li>
        <li class="nav-item language">
          <a class="nav-link dropdown-toggle dropdown-toggle-nocaret waves-effect" data-toggle="dropdown" href="javascript:void();"><i class="fa fa-flag"></i></a>
          <ul class="dropdown-menu dropdown-menu-right">
@@ -47,10 +33,6 @@
               </div>
              </a>
            </li>
-           <li class="dropdown-divider"></li>
-           <li class="dropdown-item"><i class="icon-envelope mr-2"></i> Inbox</li>
-           <li class="dropdown-divider"></li>
-           <li class="dropdown-item"><i class="icon-wallet mr-2"></i> Account</li>
            <li class="dropdown-divider"></li>
            <li class="dropdown-item"><i class="icon-settings mr-2"></i> Setting</li>
            <li class="dropdown-divider"></li>

@@ -8,21 +8,21 @@
   <meta name="author" content=""/>
   <title>Dashtreme Admin - Free Dashboard for Bootstrap 4 by Codervent</title>
   <!--favicon-->
-  <link rel="icon" href="{{ asset('admin/assets/images/favicon.ico') }}" type="image/x-icon">
+  <link rel="icon" href="{{ asset('panel/assets/images/favicon.ico') }}" type="image/x-icon">
   <!-- Vector CSS -->
-  {{-- <link href="{{ asset('admin/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css') }}" rel="stylesheet"/> --}}
+  {{-- <link href="{{ asset('panel/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css') }}" rel="stylesheet"/> --}}
   <!-- simplebar CSS-->
-  <link href="{{ asset('admin/assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet"/>
+  <link href="{{ asset('panel/assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet"/>
   <!-- Bootstrap core CSS-->
-  <link href="{{ asset('admin/assets/css/bootstrap.min.css') }}" rel="stylesheet"/>
+  <link href="{{ asset('panel/assets/css/bootstrap.min.css') }}" rel="stylesheet"/>
   <!-- animate CSS-->
-  <link href="{{ asset('admin/assets/css/animate.css') }}" rel="stylesheet" type="text/css"/>
+  <link href="{{ asset('panel/assets/css/animate.css') }}" rel="stylesheet" type="text/css"/>
   <!-- Icons CSS-->
-  <link href="{{ asset('admin/assets/css/icons.css') }}" rel="stylesheet" type="text/css"/>
+  <link href="{{ asset('panel/assets/css/icons.css') }}" rel="stylesheet" type="text/css"/>
   <!-- Sidebar CSS-->
-  <link href="{{ asset('admin/assets/css/sidebar-menu.css') }}" rel="stylesheet"/>
+  <link href="{{ asset('panel/assets/css/sidebar-menu.css') }}" rel="stylesheet"/>
   <!-- Custom Style-->
-  <link href="{{ asset('admin/assets/css/app-style.css') }}" rel="stylesheet"/>
+  <link href="{{ asset('panel/assets/css/app-style.css') }}" rel="stylesheet"/>
   @yield('css')
   
 </head>
@@ -56,22 +56,22 @@
   </div><!--End wrapper-->
 
   <!-- Bootstrap core JavaScript-->
-  <script src="{{ asset('admin/assets/js/jquery.min.js') }}"></script>
-  <script src="{{ asset('admin/assets/js/popper.min.js') }}"></script>
-  <script src="{{ asset('admin/assets/js/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('panel/assets/js/jquery.min.js') }}"></script>
+  <script src="{{ asset('panel/assets/js/popper.min.js') }}"></script>
+  <script src="{{ asset('panel/assets/js/bootstrap.min.js') }}"></script>
 	
  <!-- simplebar js -->
-  <script src="{{ asset('admin/assets/plugins/simplebar/js/simplebar.js') }}"></script>
+  <script src="{{ asset('panel/assets/plugins/simplebar/js/simplebar.js') }}"></script>
   <!-- sidebar-menu js -->
-  <script src="{{ asset('admin/assets/js/sidebar-menu.js') }}"></script>
+  <script src="{{ asset('panel/assets/js/sidebar-menu.js') }}"></script>
   <!-- Custom scripts -->
-  <script src="{{ asset('admin/assets/js/app-script.js') }}"></script>
+  <script src="{{ asset('panel/assets/js/app-script.js') }}"></script>
   <!-- Chart js -->
   
-  <script src="{{ asset('admin/assets/plugins/Chart.js/Chart.min.js') }}"></script>
+  <script src="{{ asset('panel/assets/plugins/Chart.js/Chart.min.js') }}"></script>
  
   <!-- Index js -->
-  <script src="{{ asset('admin/assets/js/index.js') }}"></script>
+  <script src="{{ asset('panel/assets/js/index.js') }}"></script>
   @yield('js')
 
   
